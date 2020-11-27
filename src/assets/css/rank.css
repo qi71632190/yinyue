@@ -1,0 +1,67 @@
+.rank .hotImg{
+    width: 7.2rem;
+    height: 2.9rem;
+    background: url(../images/hot.png) no-repeat;
+}
+
+.rank .songList>li {
+    border-bottom: 1px solid #eee;
+    margin-left: .6rem;
+    padding: .12rem 0;
+    position: relative;
+}
+.rank .songList>li h4{
+    width: 6rem;
+    font-size: .34rem;
+    line-height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.rank .songList>li p{
+    width: 5.6rem;
+    padding-left: .3rem;
+    font-size: .24rem;
+    line-height: .36rem;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.rank .songList .player{
+    position: absolute;
+    top: .33rem;
+    right: .2rem;
+    width: .44rem;
+    height: .44rem;
+    background: url(https://s3.music.126.net/mobile-new/img/index_icon_2x.png? 
+    ) no-repeat -.48rem 0;
+    background-size: 3.32rem 1.94rem;
+}
+.rank .songList .sq{
+    position: absolute;
+    top: .7rem;
+    left: 0rem;
+    width: .28rem;
+    height: .16rem;
+    background: url(https://s3.music.126.net/mobile-new/img/index_icon_2x.png? 
+    ) no-repeat ;
+    background-size: 3.32rem 1.94rem;
+}
+.rank .songList .num,
+.rank .songList .numGray{
+    position: absolute;
+    top: .3rem;
+    left: -.5rem;
+    width: .8rem;
+    height: 1.1rem;
+    font-size: .3rem;  
+}
+.rank .songList .num{
+    color: #df3436;
+}
+.rank .songList .numGray{
+    color: #bbb;
+}

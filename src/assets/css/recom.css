@@ -1,0 +1,102 @@
+
+.recom h2{
+    padding-left: .18rem;
+    margin: .32rem 0 .28rem;
+    font-size: .34rem;
+    height: .4rem;
+    line-height: .4rem;
+    border-left: .04rem solid #dd001b;
+}
+/* 推荐歌单 */
+.recom .cont1 .imgList{
+    height: 6.8rem;
+}
+.recom .cont1 .imgList li{
+    float: left;
+    width: 2.32rem;
+    margin-right: .06rem;
+    margin-bottom: .22rem;
+    position: relative;
+}
+.recom .cont1 .imgList li img{
+    width: 2.32rem;
+    height: 2.4rem;
+}
+.recom .cont1 .imgList li p{
+    height: .6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* white-space: nowrap; */
+    padding: .12rem .04rem 0 .12rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    color: #333;
+}
+.recom .cont1 .count{
+    position: absolute;
+    right: .1rem ;
+    top: .05rem;
+    /* background-color: #ccc; */
+}
+
+.recom .cont1 .count>em{   
+    display: inline-block;
+    width: .25rem;
+    height: .25rem;
+    background: url(../images/player.png) no-repeat;
+    background-size: .25rem .25rem;
+}
+.recom .cont1 .count>span{
+    color: #fff;
+    font-size: .2rem;
+}
+/* 最新音乐 */
+.recom .cont2 .songList>li {
+    border-bottom: 1px solid #eee;
+    margin-left: .2rem;
+    padding: .12rem 0;
+    position: relative;
+}
+.recom .cont2 .songList>li h4{
+    width: 6.3rem;
+    font-size: .34rem;
+    line-height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.recom .cont2 .songList>li p{
+    width: 6rem;
+    padding-left: .3rem;
+    font-size: .24rem;
+    line-height: .36rem;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.recom .cont2 .songList .player{
+    position: absolute;
+    top: .33rem;
+    right: .2rem;
+    width: .44rem;
+    height: .44rem;
+    background: url(https://s3.music.126.net/mobile-new/img/index_icon_2x.png? 
+    ) no-repeat -.48rem 0;
+    background-size: 3.32rem 1.94rem;
+}
+.recom .cont2 .songList .sq{
+    position: absolute;
+    top: .7rem;
+    left: 0rem;
+    width: .28rem;
+    height: .16rem;
+    background: url(https://s3.music.126.net/mobile-new/img/index_icon_2x.png? 
+    ) no-repeat ;
+    background-size: 3.32rem 1.94rem;
+}
